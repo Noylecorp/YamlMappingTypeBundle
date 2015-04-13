@@ -1,0 +1,21 @@
+{
+    "name" : "noylecorp/doctrine-extras-bundle",
+    "description" : "Symfony 2 bundle providing extras for Doctrine",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Nicholas Boyle",
+        "email" : "nsboyle@gmail.com"
+    }],
+    "keywords" : ["doctrine", "yaml"],
+    "license" : "MIT",
+    "require" : {
+        "php": "~5.3.3",
+        "symfony/framework-bundle": "~2.3"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Noylecorp\\DoctrineExtrasBundle" : ""
+        }
+    },
+    "target-dir" : "Noylecorp/DoctrineExtrasBundle"
+}
