@@ -1,12 +1,18 @@
 # noylecorp/doctrine-extras-bundle
 
-Bundle providing extras for Symfony2 Doctrine:
+Symfony 2 bundle providing extras for Doctrine:
 
-* yaml_array mapping type (similar to json_array)
+`yaml_array` custom mapping type (similar to json_array)
 
-## Install
+## Installation
 
-Add custom type(s) to Doctrine configuration:
+Via `composer`
+
+    $ composer require noylecorp/doctrine-extras-bundle
+
+## Configuration
+
+**Using custom mapping types**
 
     # app/config/config.yml
     doctrine:
